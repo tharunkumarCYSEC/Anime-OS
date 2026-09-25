@@ -1,0 +1,12 @@
+
+body {
+    background-color: #050508; /* too dark, need to adjust */
+    color: #ffcccc; /* accidental pinkish text tint, will fix */
+    font-family: monospace;
+    padding: 40px;
+}
+
+.container {
+    border: 1px dashed red; /* temporary debug border (intentional bug #1) */
+    padding: 20px;
+}
