@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Anime OS - v0.2
+    <title>Anime OS - v0.3
         
     </title>
     <link rel="stylesheet" href="style.css">
@@ -11,17 +11,23 @@
 <body>
 
     <div class="container">
-        <h1>// ANIME PORTFOLIO v0.2</h1>
-        <p>Status: Layout framework added. Ready for keyboard navigation logic.</p>
+        <h1>// ANIME PORTFOLIO v0.3</h1>
+        <p>Status: Keyboard listener added. Use LEFT/RIGHT arrows to navigate cards.</p>
         
         <div class="grid">
-            <div class="card active">1. Home</div>
-            <div class="card">2. Obito</div>
-            <div class="card">3. Madara</div>
-            <div class="card">4. Love Lessons</div>
+            <div class="card active" id="card-0">1. Home</div>
+            <div class="card" id="card-1">2. Obito</div>
+            <div class="card" id="card-2">3. Madara</div>
+            <div class="card" id="card-3">4. Love Lessons</div>
         </div>
+        
+        <p class="hint">Tip: Check console log for key events (warning: buggy logic inside!)
+            
+        </p>
     </div>
 
-    <script src="script.js"></script>
+    <script src="script.js">
+
+    </script>
 </body>
 </html>
