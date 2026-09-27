@@ -1,27 +1,53 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Anime OS - v0.4 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime OS - Final Reality Vault
 
     </title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>// ANIME PORTFOLIO v0.4</h1>
-        <p>Status: Fixed navigation bugs. Added WASD support.</p>
-        <div class="grid">
-            <div class="card active" data-id="0">1. Home</div>
-            <div class="card" data-id="1">2. Obito</div>
-            <div class="card" data-id="2">3. Madara</div>
-            <div class="card" data-id="3">4. Love Lessons</div>
+
+    <div class="os-container">
+        <header>
+            <h1>// ANIME OS v1.0 [REALITY_VAULT]</h1>
+            <p>Logged in as: Uchiha_Student | Status: Awake in the Dream</p>
+        </header>
+
+        
+        <div class="nav-grid">
+            <div class="card active" data-index="0">
+                <span class="key-badge">1</span>
+                <h3>Home</h3>
+            </div>
+            <div class="card" data-index="1">
+                <span class="key-badge">2</span>
+                <h3>Obito</h3>
+            </div>
+            <div class="card" data-index="2">
+                <span class="key-badge">3</span>
+                <h3>Madara</h3>
+            </div>
+            <div class="card" data-index="3">
+                <span class="key-badge">4</span>
+                <h3>Love & Reality</h3>
+            </div>
         </div>
-        <div id="display-area" class="display-box">
-            <p>Select a card and press Enter.</p>
+
+    
+        <div id="content-display" class="display-box">
+            <h3>Welcome to the Vault</h3>
+            <p>Use [W, A, S, D] or [Arrow Keys] to move between modules. Press [Enter] to open the lore, and [Esc] to return home.</p>
         </div>
-        <p class="hint">Controls: WASD or Arrows | Enter to select</p>
+
+        <footer class="footer-hint">
+            <p>Controls: [Arrows / WASD] Navigate | [Enter] Select | [Esc] Reset</p>
+        </footer>
     </div>
+
     <script src="script.js">
         
     </script>

@@ -1,13 +1,98 @@
-body { background-color: #0b0f19; color: #f3f4f6; font-family: monospace; padding: 40px; }
-.container { background: rgba(17, 24, 39, 0.8); border: 1px solid #ef4444; border-radius: 12px; padding: 25px; }
-.grid { display: flex; gap: 15px; margin-top: 20px; }
-.card { background: #1e293b; border: 2px solid #334155; padding: 15px; border-radius: 8px; flex: 1; text-align: center; }
-.card.active { border-color: #10b981; background-color: #064e3b; }
-.display-box { margin-top: 20px; background: #0f172a; border: 1px solid #334155; padding: 15px; border-radius: 8px; }
-.hint { font-size: 12px; color: #94a3b8; margin-top: 15px; }body { background-color: #0b0f19; color: #f3f4f6; font-family: monospace; padding: 40px; }
-.container { background: rgba(17, 24, 39, 0.8); border: 1px solid #ef4444; border-radius: 12px; padding: 25px; }
-.grid { display: flex; gap: 15px; margin-top: 20px; }
-.card { background: #1e293b; border: 2px solid #334155; padding: 15px; border-radius: 8px; flex: 1; text-align: center; }
-.card.active { border-color: #10b981; background-color: #064e3b; }
-.display-box { margin-top: 20px; background: #0f172a; border: 1px solid #334155; padding: 15px; border-radius: 8px; }
-.hint { font-size: 12px; color: #94a3b8; margin-top: 15px; }
+body {
+    background: linear-gradient(rgba(11, 15, 25, 0.75), rgba(20, 10, 30, 0.85)), 
+                url('obito pic.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #f3f4f6;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 40px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.os-container {
+    background: rgba(15, 23, 42, 0.82);
+    border: 2px solid #ff4500; 
+    border-radius: 16px;
+    padding: 30px;
+    width: 100%;
+    max-width: 750px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px);
+}
+
+header h1 {
+    font-size: 20px;
+    color: #ff7b00;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 12px;
+    color: #94a3b8;
+    margin-bottom: 25px;
+}
+
+.nav-grid {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+.card {
+    background: rgba(30, 41, 59, 0.7);
+    border: 2px solid #475569;
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+.card h3 {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+}
+
+.key-badge {
+    font-size: 10px;
+    background: #334155;
+    padding: 2px 6px;
+    border-radius: 4px;
+    color: #cbd5e1;
+}
+
+.card.active {
+    border-color: #ff4500;
+    background-color: rgba(255, 69, 0, 0.15);
+    box-shadow: 0 0 12px rgba(255, 69, 0, 0.4);
+    transform: translateY(-2px);
+}
+
+.display-box {
+    background: rgba(10, 15, 30, 0.9);
+    border: 1px solid #334155;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 110px;
+}
+
+.display-box h3 {
+    color: #38bdf8;
+    margin-top: 0;
+}
+
+.display-box p {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #e2e8f0;
+}
+
+.footer-hint {
+    text-align: center;
+    font-size: 11px;
+    color: #64748b;
+    margin-top: 20px;
+}
